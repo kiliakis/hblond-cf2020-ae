@@ -1,0 +1,15 @@
+ppb	b	s	t	n	N	omp	red	mtw	seed	approx	mpi	lb	lba	function	total_time(sec)	time_per_call(ms)	std(%)	calls	global_percentage
+2000000	48	1000	5000	16	8	10	2	50	0	1	mvapich2	interval	500	comm:allreduce	0.46	0.19	59.44	0.0	0.38
+2000000	48	1000	5000	16	8	10	2	50	0	1	mvapich2	interval	500	comm:gather	0.02	7.15	0.82	0.0	0.18
+2000000	48	1000	5000	16	8	10	2	50	0	1	mvapich2	interval	500	comm:redistribute	0.03	3.18	4.34	0.0	0.03
+2000000	48	1000	5000	16	8	10	2	50	0	1	mvapich2	interval	500	comm:sendrecv	0.02	0.0	2.26	0.0	0.28
+2000000	48	1000	5000	16	8	10	2	50	0	1	mvapich2	interval	500	comp:LIKick	0.58	0.12	5.92	0.0	5.61
+2000000	48	1000	5000	16	8	10	2	50	0	1	mvapich2	interval	500	comp:histo	0.4	0.16	8.21	0.0	1.61
+2000000	48	1000	5000	16	8	10	2	50	0	1	mvapich2	interval	500	serial:beam_spectrum_gen	0.11	0.05	24.76	0.0	0.52
+2000000	48	1000	5000	16	8	10	2	50	0	1	mvapich2	interval	500	serial:conversion	0.0	0.0	0.46	0.0	0.11
+2000000	48	1000	5000	16	8	10	2	50	0	1	mvapich2	interval	500	serial:indVolt1Turn	0.21	0.08	24.44	0.0	0.72
+2000000	48	1000	5000	16	8	10	2	50	0	1	mvapich2	interval	500	serial:sync	7.95	1.06	80.7	0.0	9.51
+2000000	48	1000	5000	16	8	10	2	50	0	1	mvapich2	interval	500	Other	0.01	8.99	0.0	0.0	0.48
+2000000	48	1000	5000	16	8	10	2	50	0	1	mvapich2	interval	500	total_time	9.3	9297.6	0.0	0.0	0.0
+2000000	48	1000	5000	16	8	10	2	50	0	1	mvapich2	interval	500	serial:RFVCalc	0.04	0.01	12.89	0.0	0.32
+2000000	48	1000	5000	16	8	10	2	50	0	1	mvapich2	interval	500	serial:beam_phase	0.18	0.04	31.7	0.0	0.3

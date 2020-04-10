@@ -1,0 +1,6 @@
+ppb	b	s	t	n	N	omp	red	mtw	seed	approx	mpi	lb	lba	type	avg_time(sec)	percent	min%	max%	std
+8000000	21	256	5000	16	8	10	1	50	0	2	mvapich2	interval	500	comp	2.58	0.77	0.71	0.83	0.1
+8000000	21	256	5000	16	8	10	1	50	0	2	mvapich2	interval	500	comm	0.03	0.08	0.03	0.08	0.02
+8000000	21	256	5000	16	8	10	1	50	0	2	mvapich2	interval	500	serial	0.95	0.84	0.9	0.8	0.09
+8000000	21	256	5000	16	8	10	1	50	0	2	mvapich2	interval	500	other	0.01	0.08	0.06	0.09	0.05
+8000000	21	256	5000	16	8	10	1	50	0	2	mvapich2	interval	500	total	3.3	0.0	0.0	0.0	0.0

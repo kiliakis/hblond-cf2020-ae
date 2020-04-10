@@ -1,0 +1,6 @@
+ppb	b	s	t	n	N	omp	red	mtw	seed	approx	mpi	lb	lba	type	avg_time(sec)	percent	min%	max%	std
+2000000	72	1408	5000	16	8	10	1	50	0	2	mvapich2	reportonly	500	comp	1.51	2.36	3.15	3.82	1.52
+2000000	72	1408	5000	16	8	10	1	50	0	2	mvapich2	reportonly	500	comm	13.74	6.16	0.06	7.3	2.2
+2000000	72	1408	5000	16	8	10	1	50	0	2	mvapich2	reportonly	500	serial	1.05	3.62	3.93	3.68	1.23
+2000000	72	1408	5000	16	8	10	1	50	0	2	mvapich2	reportonly	500	other	0.04	0.19	0.19	0.19	0.04
+2000000	72	1408	5000	16	8	10	1	50	0	2	mvapich2	reportonly	500	total	15.94	0.0	0.0	0.0	0.0
