@@ -31,12 +31,12 @@ This could take a few minutes to complete.
 `docker run -it --rm --cpus=4 hblond:1.0`
 
 1. You can test that everything is correctly set-up by running a test experiment:
-	- `python __EXAMPLES/main_files/EX_01_Acceleration.py --turns 100`
+	- `python examples/main_files/EX_01_Acceleration.py --turns 100`
 
 1. A summary of all the command line options can be printed with the --help option:
-	- `python __EXAMPLES/main_files/EX_01_Acceleration.py --help`
+	- `python examples/main_files/EX_01_Acceleration.py --help`
 
-1. The following three real-world simulation scenarios are provided in the `__EXAMPLES/main_files` directory:
+1. The following three real-world simulation scenarios are provided in the `examples/main_files` directory:
 	- `LHC_main.py` (LHC testcase)
 	- `SPS_main.py` (SPS testcase)
 	- `PS_main.py` (PS testcase)
@@ -63,8 +63,8 @@ This could take a few minutes to complete.
 
 1. You can customize the configuration files in `scripts/scan/{lhc,sps,ps}_configs.yml` and repeat the three previous steps.
 
-1. Or you can test interactively the test-cases found in `__EXAMPLES/main_files` with:
-`mpirun -n 4 python __EXAMPLES/main_files/LHC_main.py --turns 1000 --particles 1000000 --bunches 12`
+1. Or you can test interactively the test-cases found in `examples/main_files` with:
+`mpirun -n 4 python examples/main_files/LHC_main.py --turns 1000 --particles 1000000 --bunches 12`
 
 ## Cluster environment
 
@@ -76,7 +76,7 @@ Since every cluster has its own configuration, installed libraries, user permiss
 	```bash
 	export ARTIFACT_DIR = "$HOME/path/to/hblond-cf2020-ae/"
 	export INSTALL_DIR = "$ARTIFACT_DIR/install"
-	export BUILD_DIR = "$ARTIFACT_DIR/HBLonD"
+	export BUILD_DIR = "$ARTIFACT_DIR/hblond"
 	export PYTHONPATH = "$ARTIFACT_DIR/pymodules:$BUILD_DIR:$PYTHONPATH"
 	```
 1. Make sure the necessary software is installed: 
@@ -107,10 +107,10 @@ Since every cluster has its own configuration, installed libraries, user permiss
 1. If the login node is a different CPU type than the execution node, you will have to compile the library in the execution node, by modifying the script `scripts/other/batch-setup.sh` appropriately. 
 
 1. Then you can test that everything is correctly set-up by running a test experiment:
-	- `python __EXAMPLES/main_files/EX_01_Acceleration.py --turns 100`
+	- `python examples/main_files/EX_01_Acceleration.py --turns 100`
 1. A summary of all the command line options can be printed with the --help option:
-	- `python __EXAMPLES/main_files/EX_01_Acceleration.py --help`
-1. The following three real-world simulation scenarios are provided in the `__EXAMPLES/main_files` directory:
+	- `python examples/main_files/EX_01_Acceleration.py --help`
+1. The following three real-world simulation scenarios are provided in the `examples/main_files` directory:
 	- `LHC_main.py` (LHC testcase)
 	- `SPS_main.py` (SPS testcase)
 	- `PS_main.py` (PS testcase)
