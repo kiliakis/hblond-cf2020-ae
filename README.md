@@ -147,9 +147,10 @@ Don't hesitate to contact us should you need further support:
 - Dimitrios Soudris (dsoudris (at) microlab (dot) ntua (dot) gr)
 
 ## Useful Links
-- Repository: https://github.com/blond-admin/BLonD
+- Repository: https://github.com/kiliakis/hblond-cf2020-ae
 - Documentation: http://blond-admin.github.io/BLonD/
 - Project website: http://blond.web.cern.ch
+- Artifact DOI: https://doi.org/10.5281/zenodo.3747710
 
 ## Copyright Notice
  Copyright 2019 CERN. This software is distributed under the terms of the GNU General Public Licence version 3 (GPLVersion 3), copied verbatim in the file LICENCE.txt. In applying this licence, CERN does not waive the privileges and immunities granted to it by virtue of its status as an Intergovernmental Organization or submit itself to any jurisdiction.
